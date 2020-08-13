@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "M5-W2-SignUpForm"
+    }
+  },
+  "defaultProject": "M5-W2-SignUpForm",
+  "cli": {
+    "analytics": false
+  }
 }
