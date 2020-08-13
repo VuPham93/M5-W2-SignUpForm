@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'M5-W2-SignUpForm';
+
+  show:boolean = false;
+
+  showForm() {
+    this.show = !this.show;
+  }
 }

@@ -1,1 +1,9 @@
-<app-sign-up></app-sign-up>
+<ng-container *ngIf="show">
+  <button class="btn btn-outline-success" (click)="showForm()">Sign In</button>
+  <app-sign-up></app-sign-up>
+</ng-container>
+<ng-container *ngIf="!show">
+  <button class="btn btn-outline-success" (click)="showForm()">Sign Up</button>
+  <app-sign-in></app-sign-in>
+</ng-container>
+
